@@ -12,12 +12,13 @@ def ov(items):
             if t > delay: big(P, y, text, col, size, t - delay)
     return fn
 
-def sc(s, pid, title=None, tc=None, o=(), off=0, hold=False, focus=(0.5, 0.5), zoom=(1.0, 1.12), dim=0.12):
+def sc(s, pid, title=None, tc=None, o=(), off=0, hold=False, focus=(0.5, 0.5), zoom=(1.0, 1.12), dim=0.12, src=None):
     d = dict(s=s, fn=ov(o), photo=F(pid, focus=focus, zoom=zoom, dim=dim))
     if off: d["off"] = off
     if title: d["title"] = title
     if tc: d["title_color"] = tc
     if hold: d["hold"] = True
+    if src: d["src"] = src
     return d
 ZO = (1.12, 1.0)
 SPECS = {
@@ -252,10 +253,20 @@ SPECS = {
     sc(6, "459402", "THE GLIDE", off=3.2, hold=True, zoom=ZO, focus=(0.48, 0.5), o=[(0.3, 760, "ENGINES RESTART", G, 86)], dim=0.3),
     sc(6, "3768652", "THE GLIDE", off=6.0, hold=True, focus=(0.5, 0.6), dim=0.35, o=[(0.2, 600, "263", G, 280), (1.0, 800, "LANDED SAFELY", G, 96)]),
     sc(7, "11617688", focus=(0.45, 0.6), dim=0.0)]),
+"maskfirst": dict(hook=["YOU HAVE", "30 SECONDS"], mood="tense", end_tag="A NEW PLANE QUESTION EVERY DAY", scenes=[
+    sc(0, "15893878", focus=(0.6, 0.45), zoom=(1.0, 1.18), dim=0.0),
+    sc(0, "4618040", off=2.3, zoom=ZO, dim=0.3, o=[(0.1, 640, "35,000 FT", A, 150), (0.7, 820, "NO OXYGEN", R, 110)]),
+    sc(1, "3119983", "SO WHY...", o=[(0.5, 760, "YOUR MASK FIRST?", A, 96)], dim=0.3),
+    sc(2, "1831265", "THE AIR IS TOO THIN", focus=(0.6, 0.5), o=[(0.8, 760, "TO KEEP THINKING", R, 86)], dim=0.2),
+    sc(3, "6861359", None, dim=0.55, src=dict(name="FAA AC 61-107B", fact=["Useful consciousness:", "30 to 60 seconds"], size=84)),
+    sc(4, "10963854", "FIRST TO FAIL", R, focus=(0.5, 0.4), o=[(0.4, 760, "YOUR JUDGMENT", R, 96)], dim=0.0),
+    sc(5, "4606720", "HELP A CHILD FIRST?", R, o=[(1.3, 760, "YOU BOTH PASS OUT", R, 84)], dim=0.35),
+    sc(6, "11989285", "SO...", G, focus=(0.6, 0.5), dim=0.35, o=[(0.1, 640, "MASK ON FIRST", G, 110), (1.3, 820, "THEN HELP", W, 110)]),
+    sc(7, "15893878", focus=(0.6, 0.45), zoom=(1.0, 1.18), dim=0.0)]),
 }
 if __name__ == "__main__":
     key = sys.argv[1]; sp = SPECS[key]
-    args = dict(key=key, scenes=sp["scenes"], theme=T, bg_img=Image.new("RGB", (1080, 1920), T["bg1"]), hook_lines=sp["hook"], mood=sp["mood"])
+    args = dict(key=key, scenes=sp["scenes"], theme=T, bg_img=Image.new("RGB", (1080, 1920), T["bg1"]), hook_lines=sp["hook"], mood=sp["mood"], end_tag=sp.get("end_tag"))
     if len(sys.argv) > 2:
         tm = json.load(open(f"/home/claude/shorts/{key}_timing.json"))["sentences"]
         ts = [0.3] + [tm[s["s"]]["start"] + s.get("off", 0) + 1.7 for s in sp["scenes"][1:-1]] + [tm[-1]["end"] + 0.5]

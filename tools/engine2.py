@@ -10,7 +10,7 @@ import audio2
 
 W, H, FPS = 1080, 1920, 30
 
-def render(key, scenes, theme, bg_img, hook_lines, out_dir="/home/claude/shorts", mood="curious", preview=None, title_block=None):
+def render(key, scenes, theme, bg_img, hook_lines, out_dir="/home/claude/shorts", mood="curious", preview=None, title_block=None, end_tag=None):
     tm = json.load(open(f"{out_dir}/{key}_timing.json")); sents = tm["sentences"]; dur = tm["duration"]
     bounds = [0.0 if i == 0 else sents[sc["s"]]["start"] - 0.1 + sc.get("off", 0) for i, sc in enumerate(scenes)] + [dur]
     chunks = caption_chunks(sents, maxwords=4)
@@ -64,6 +64,22 @@ def render(key, scenes, theme, bg_img, hook_lines, out_dir="/home/claude/shorts"
                 td.text((W / 2, f_.size * 0.7), s_, font=f_, fill=sc.get("title_color", acc), anchor="mm", stroke_width=6, stroke_fill=(0, 0, 0))
                 if pp < 0.999: tmp = tmp.resize((max(1, int(W * max(pp, 0.05))), max(1, int(tmp.height * max(pp, 0.05)))))
                 im.alpha_composite(tmp, (int(W / 2 - tmp.width / 2), int(y0 + li * f_.size * 1.1 + f_.size * 0.7 - tmp.height / 2)))
+        # source reference (style B): SOURCE tag + key fact with yellow marker sweep
+        if sc.get("src") and not loop:
+            import doccard2 as DC
+            src = sc["src"]; f_lab = FX[36]; f_src = FX[36].font_variant(size=40); fl = []
+            f_fact = FB[150].font_variant(size=src.get("size", 88))
+            for ln in src["fact"]: fl += [" ".join(x) for x in wrap(ln.upper(), f_fact, 940, d)]
+            lh_ = int(f_fact.size * 1.32); y0 = 760 - len(fl) * lh_ // 2
+            lab = "SOURCE"; lw_ = d.textlength(lab, font=f_lab); sw_ = d.textlength(src["name"], font=f_src); x = W / 2 - (lw_ + 60 + sw_) / 2; yy = y0 - 110
+            d.rounded_rectangle([x, yy - 8, x + lw_ + 40, yy + 52], radius=26, fill=acc); d.text((x + 20, yy + 22), lab, font=f_lab, fill=(10, 16, 30), anchor="lm")
+            d.text((x + lw_ + 60, yy + 22), src["name"], font=f_src, fill=txt, anchor="lm", stroke_width=4, stroke_fill=(0, 0, 0))
+            DC.marker_lines(d, fl, f_fact, 0, y0, lh_, ts, 0.35, 0.5, center=W / 2, pad=22)
+        # end tag: last 2 s
+        if end_tag and t >= dur - 2.0:
+            f_ = FX[36].font_variant(size=40); tw = d.textlength(end_tag, font=f_); k_ = ease((t - (dur - 2.0)) / 0.3); yy = 1560 + (1 - k_) * 40
+            d.rounded_rectangle([W / 2 - tw / 2 - 36, yy - 40, W / 2 + tw / 2 + 36, yy + 40], radius=40, fill=acc)
+            d.text((W / 2, yy), end_tag, font=f_, fill=(10, 16, 30), anchor="mm")
         # karaoke captions
         if not loop:
             cc = [c for c in chunks if c["start"] - 0.05 <= t < c["hold"]]
