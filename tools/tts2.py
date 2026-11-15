@@ -4,7 +4,7 @@ from kokoro_onnx import Kokoro
 K = Kokoro('/home/claude/tts/kokoro-v1.0.onnx', '/home/claude/tts/voices-v1.0.bin')
 S = json.load(open('/home/claude/shorts/scripts.json'))
 
-def make(key, speed=1.08, gap=0.12, reveal_pause=0.55):
+def make(key, speed=0.98, gap=0.24, reveal_pause=0.55):
     v = S[key]; sr = 24000; parts = []; t = 0.0; timing = []
     reveal = v.get("reveal")
     for i, s in enumerate(v["sentences"]):
