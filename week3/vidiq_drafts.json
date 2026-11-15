@@ -1,0 +1,55 @@
+{
+ "account": "UC6a9OfcNUX9XWP-7l8zdvCw",
+ "note": "Week 3 drafts created Nov 15 2026. Not published until the user says post.",
+ "drafts": [
+  {
+   "day": 15,
+   "title": "Why Do Wing Tips Curve Up?",
+   "postId": "a258122e-75cc-485d-b966-33963ad9b989",
+   "revision": "9095ccea",
+   "publishAt": "2026-11-29T06:00:00+07:00"
+  },
+  {
+   "day": 16,
+   "title": "Why Must Window Shades Be Open for Landing?",
+   "postId": "25d2e11f-d4ab-4848-ab41-d78fa9a6ecbf",
+   "revision": "f496542d",
+   "publishAt": "2026-11-30T06:00:00+07:00"
+  },
+  {
+   "day": 17,
+   "title": "Why Do Phones Need Airplane Mode?",
+   "postId": "0c9bfcd8-ff31-4571-bfc5-2b8ca0753239",
+   "revision": "21eb86b4",
+   "publishAt": "2026-12-01T06:00:00+07:00"
+  },
+  {
+   "day": 18,
+   "title": "Why Are There Still Ashtrays on Planes?",
+   "postId": "8a328a3c-d866-495e-85b9-d475c6121b96",
+   "revision": "7fbfba03",
+   "publishAt": "2026-12-02T06:00:00+07:00"
+  },
+  {
+   "day": 19,
+   "title": "Why Do Oxygen Masks Last Only Minutes?",
+   "postId": "c8155d11-0031-4e4b-b42f-451118abc675",
+   "revision": "3c43550f",
+   "publishAt": "2026-12-03T06:00:00+07:00"
+  },
+  {
+   "day": 20,
+   "title": "Why Was a Pilot Sucked Out of the Window?",
+   "postId": "77a1811a-7a43-4af0-a608-48f93325685d",
+   "revision": "dc95bd79",
+   "publishAt": "2026-12-04T06:00:00+07:00"
+  },
+  {
+   "day": 21,
+   "title": "Why Did All Four Engines Stop at Once?",
+   "postId": "19b20739-76f9-4091-ab56-095a2f36ac65",
+   "revision": "69af4de7",
+   "publishAt": "2026-12-05T06:00:00+07:00"
+  }
+ ]
+}
