@@ -33,8 +33,8 @@ def marker_lines(d, lines, f, x, y, lh, t, t0, per, center=None, pad=14):
             for j in range(len(ln) + 1):
                 if d.textlength(ln[:j], font=f) <= (w + 2 * pad) * k - pad: n = j
             d.text((lx, y + i * lh), ln[:n], font=f, fill=BG)
-def frame(t, spec, size=(1080, 1920), style="dark", dur=6.0):
-    W, H = size; U = min(W, H * 0.62) / 1080  # scale unit
+def frame(t, spec, size=(1080, 1920), style="dark", dur=6.0, u=None):
+    W, H = size; U = u or min(W, H * 0.62) / 1080  # scale unit
     if style == "dark":
         im = bgimg(spec["photo"], size, 14, 0.4, t, dur).convert("RGBA"); cw = int(900 * U); m = int(56 * U)
         f_lab, f_src, f_t, f_fact = _f("Bold", int(30 * U)), _f("SemiBold", int(34 * U)), _f("Bold", int(44 * U)), _f("Black", int(64 * U))
