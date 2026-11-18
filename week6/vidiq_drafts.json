@@ -1,0 +1,55 @@
+{
+ "account": "UC6a9OfcNUX9XWP-7l8zdvCw",
+ "note": "Week 6 drafts created Nov 18 2026. Not published until the user says post.",
+ "drafts": [
+  {
+   "day": 36,
+   "title": "Plane Tires Aren't Filled With Air. Why?",
+   "postId": "a1317c5b-b9cb-49da-99a1-89caa7daffe5",
+   "revision": "b8b446dc",
+   "publishAt": "2026-12-20T06:00:00+07:00"
+  },
+  {
+   "day": 37,
+   "title": "Why Don't Plane Tires Burst on Landing?",
+   "postId": "0295f1dd-30a7-440c-a8d7-5dab5eb97992",
+   "revision": "880aab6e",
+   "publishAt": "2026-12-21T06:00:00+07:00"
+  },
+  {
+   "day": 38,
+   "title": "Why Jets Keep Their Fuel in the Wings",
+   "postId": "479e70d0-92ac-4296-9111-97d60d653deb",
+   "revision": "6ee51d12",
+   "publishAt": "2026-12-22T06:00:00+07:00"
+  },
+  {
+   "day": 39,
+   "title": "The Tiny Jet Engine Hidden in the Tail",
+   "postId": "5f1954b5-b740-492c-91d5-d9b255466ff1",
+   "revision": "50547c0f",
+   "publishAt": "2026-12-23T06:00:00+07:00"
+  },
+  {
+   "day": 40,
+   "title": "Why Are Plane Noses Round, Not Pointed?",
+   "postId": "45e7d497-196b-4f3e-9c49-e4499ac776c3",
+   "revision": "cda5ee63",
+   "publishAt": "2026-12-24T06:00:00+07:00"
+  },
+  {
+   "day": 41,
+   "title": "Why Did Concorde Stop Flying?",
+   "postId": "cace7a5e-bd7e-489a-920d-081a1d7f54c5",
+   "revision": "4f525017",
+   "publishAt": "2026-12-25T06:00:00+07:00"
+  },
+  {
+   "day": 42,
+   "title": "Why Do Planes Shout \"Pull Up\"?",
+   "postId": "751d6d04-1930-46b8-be98-2eba6c81a300",
+   "revision": "4daf5a03",
+   "publishAt": "2026-12-26T06:00:00+07:00"
+  }
+ ]
+}

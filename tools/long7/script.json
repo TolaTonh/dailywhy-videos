@@ -1,0 +1,161 @@
+{
+ "title": "The Gimli Glider: The Jet That Ran Out of Fuel",
+ "chapters": [
+  {
+   "key": "intro",
+   "name": "Intro",
+   "year": null,
+   "card": null,
+   "sentences": [
+    "At forty-one thousand feet over Canada, a brand-new jet airliner sounded a warning nobody on board expected.",
+    "Minutes later, both of its engines went silent. The screens in the cockpit went dark.",
+    "Sixty-nine people were now riding in a giant glider, with no fuel at all.",
+    "How does a modern jet simply run out of fuel? And how did every single person on board survive?",
+    "This is the story of the Gimli Glider."
+   ]
+  },
+  {
+   "key": "newjet",
+   "name": "A Brand-New Jet",
+   "year": "1983",
+   "card": "A BRAND-NEW JET",
+   "sentences": [
+    "The date was the twenty-third of July, nineteen eighty-three.",
+    "The aircraft was a Boeing seven sixty-seven. It had joined its airline's fleet less than four months earlier.",
+    "It was one of the most modern airliners in the world. Glass screens replaced many of the old dials, and computers watched over its systems.",
+    "And it had one more new feature. Canada was moving to the metric system, and this jet was among the first in the fleet to measure its fuel in kilograms, not pounds.",
+    "Every other plane the crews knew used pounds. That small difference would matter enormously.",
+    "That day, the flight would go from Montreal, to Ottawa, and on to Edmonton."
+   ]
+  },
+  {
+   "key": "gauges",
+   "name": "The Blank Gauges",
+   "year": "FQIS",
+   "card": "THE BLANK GAUGES",
+   "sentences": [
+    "The trouble started before the passengers even boarded.",
+    "The seven sixty-seven had a computer that measured the fuel in its tanks and showed it on gauges in the cockpit. It worked through two separate channels, for safety.",
+    "One of those channels was faulty. Over the previous days, technicians had been working on it.",
+    "By the time this flight was ready to leave, the fuel gauges in the cockpit were blank. The crew could not see how much fuel they had.",
+    "A rulebook called the minimum equipment list said the jet was not legal to fly with blank fuel gauges.",
+    "But the captain understood it differently. He believed the plane could fly, as long as the fuel was checked by hand, with a measuring stick, before departure."
+   ]
+  },
+  {
+   "key": "maths",
+   "name": "The Maths",
+   "year": "1.77",
+   "card": "THE MATHS",
+   "sentences": [
+    "So the fuel was checked the old way. A worker climbed up and pushed a measuring stick into the tanks. That gave the amount of fuel as a volume, in litres.",
+    "But the airplane's computer and flight plan needed a weight. So the litres had to be turned into kilograms.",
+    "For that, you multiply by the density of the fuel. In metric, jet fuel weighs about point eight kilograms per litre.",
+    "The crew and the fuelling staff used one point seven seven instead. That is the number for pounds per litre, not kilograms.",
+    "The flight needed twenty-two thousand three hundred kilograms of fuel. Because of the wrong number, the crew believed they had it. In reality, the jet carried only about ten thousand one hundred kilograms.",
+    "That was less than half of what it needed.",
+    "At Ottawa, the same calculation was repeated, with the same mistake. No fuel was added. And the seven sixty-seven took off for Edmonton.",
+    "On older jets, a third crew member, the flight engineer, had handled these numbers. This jet did not have one, and nobody had been clearly given the job."
+   ]
+  },
+  {
+   "key": "silence",
+   "name": "Silence at 41,000 Feet",
+   "year": "41,000 FT",
+   "card": "SILENCE AT 41,000 FEET",
+   "sentences": [
+    "The jet climbed to forty-one thousand feet and headed west.",
+    "Over Red Lake, in Ontario, a warning sounded in the cockpit. Low fuel pressure, on the left side.",
+    "The pilots thought a fuel pump had failed. Then a second warning came. They decided to divert to Winnipeg.",
+    "Moments later, the left engine stopped. As the jet descended through about thirty-five thousand feet, the right engine stopped too.",
+    "Without the engines, most of the electricity was gone. The new glass screens in the cockpit went dark, leaving only a few basic backup instruments.",
+    "There was no checklist for losing both engines. The crew had never trained for it.",
+    "A small propeller, called a ram air turbine, dropped out of the plane into the wind. It gave just enough hydraulic power to move the controls."
+   ]
+  },
+  {
+   "key": "glider",
+   "name": "The Glider Pilot",
+   "year": "12 : 1",
+   "card": "THE GLIDER PILOT",
+   "sentences": [
+    "In the left seat was Captain Bob Pearson. And by luck, he was an experienced glider pilot.",
+    "He knew that a gliding plane must fly at just the right speed to travel as far as possible. He chose about two hundred and twenty knots.",
+    "For every mile it fell, the jet was travelling about twelve miles forward.",
+    "But it was not enough. The calculations showed they would not reach Winnipeg.",
+    "First Officer Maurice Quintal had an idea. Not far away was Gimli, a former air force base.",
+    "They turned toward it. What they did not know was that Gimli had a new life."
+   ]
+  },
+  {
+   "key": "track",
+   "name": "The Racetrack",
+   "year": "GIMLI",
+   "card": "THE RACETRACK",
+   "sentences": [
+    "The old air base at Gimli had become a motorsports park. And that afternoon, a car race was underway, with racers, families and spectators near the runway.",
+    "As the jet came closer, the crew lowered the landing gear. With no normal power, it dropped by gravity.",
+    "The main wheels locked into place. But the nose wheel did not.",
+    "The flaps, which normally help a jet slow down for landing, could not be used at all.",
+    "And the jet was too high and too fast.",
+    "So Pearson did something almost never seen in an airliner. He crossed the controls, turning the plane slightly sideways into the wind. Pilots call it a forward slip.",
+    "The sideways body acted like a giant air brake, and the jet dropped quickly toward the runway."
+   ]
+  },
+  {
+   "key": "landing",
+   "name": "The Landing",
+   "year": "17 MIN",
+   "card": "THE LANDING",
+   "sentences": [
+    "The seven sixty-seven hit the runway hard. Two tyres burst.",
+    "The unlocked nose wheel collapsed, and the nose of the jet scraped along the concrete, throwing sparks.",
+    "That scraping actually helped. It slowed the jet down.",
+    "The plane came to a stop about seventeen minutes after it had run out of fuel.",
+    "A small fire started in the nose. Racers and course workers ran over and put it out.",
+    "The evacuation slides at the back were too short, because the tail was raised high in the air. About ten people had minor injuries climbing down.",
+    "But all sixty-one passengers and all eight crew members walked away alive."
+   ]
+  },
+  {
+   "key": "blame",
+   "name": "Who Was to Blame?",
+   "year": "1985",
+   "card": "WHO WAS TO BLAME?",
+   "sentences": [
+    "So whose fault was it? The answer was not simple.",
+    "The official board of inquiry published its final report in nineteen eighty-five. It pointed to what it called corporate and equipment deficiencies at the airline.",
+    "Responsibility for fuel calculations had not been clearly assigned. And pilots and fuelling staff had not been properly trained in metric units.",
+    "At first, the pilots were punished. The captain was demoted for six months, and the first officer was suspended for two weeks. Three maintenance workers were suspended too.",
+    "But the report also praised the crew for their professionalism and skill. And later, both pilots won an appeal.",
+    "That same year, Pearson and Quintal received the first Diploma for Outstanding Airmanship from the international air sports federation."
+   ]
+  },
+  {
+   "key": "after",
+   "name": "What Happened Next",
+   "year": "2008",
+   "card": "WHAT HAPPENED NEXT",
+   "sentences": [
+    "The report recommended that the airline adopt safety practices already used in the United States and Europe, and convert its fleet fully to metric units.",
+    "Today, fuel is checked in one clear unit, by people with clearly assigned jobs, and cross-checked by others.",
+    "And the jet itself? It was repaired at Gimli, flown out, fully fixed in Winnipeg, and returned to service.",
+    "The Gimli Glider kept flying passengers for almost twenty-five more years. Its last flight carrying passengers was on the first of January, two thousand eight.",
+    "Its final flight took it to Mojave, in California, where old airliners are stored.",
+    "In twenty twenty-five, its cockpit went on display at a museum in Gimli, and Bob Pearson came to see it again."
+   ]
+  },
+  {
+   "key": "outro",
+   "name": "Outro",
+   "year": null,
+   "card": null,
+   "sentences": [
+    "The Gimli Glider is a story about a small number, in the wrong unit, that nobody caught.",
+    "But it is also a story about skill, calm, and a little luck, at forty-one thousand feet.",
+    "Every person on board survived. And the lessons about clear jobs, training and checking each other are still part of flying today.",
+    "If you enjoyed this story, subscribe to Daily Why. We answer one question about flying every single day."
+   ]
+  }
+ ]
+}
