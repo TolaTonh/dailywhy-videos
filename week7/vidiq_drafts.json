@@ -1,0 +1,55 @@
+{
+ "account": "UC6a9OfcNUX9XWP-7l8zdvCw",
+ "note": "Week 7 drafts created Nov 19 2026. Not published until the user says post.",
+ "drafts": [
+  {
+   "day": 43,
+   "title": "Why Are Plane Wing Lights Red and Green?",
+   "postId": "876ba233-71e1-4750-9b6a-f3169a35c0d1",
+   "revision": "73a6e2f5",
+   "publishAt": "2026-12-27T06:00:00+07:00"
+  },
+  {
+   "day": 44,
+   "title": "The Little Sticks on Plane Wings Have a Job",
+   "postId": "4acb3732-ad7b-4a32-9b6e-aba2d0df1a46",
+   "revision": "38c385e2",
+   "publishAt": "2026-12-28T06:00:00+07:00"
+  },
+  {
+   "day": 45,
+   "title": "Why Doesn't Lightning Bring Down Planes?",
+   "postId": "1a384b19-4fb5-4953-903d-bc174fb18e47",
+   "revision": "32287f6c",
+   "publishAt": "2026-12-29T06:00:00+07:00"
+  },
+  {
+   "day": 46,
+   "title": "Why Planes Avoid Flying Over Tibet",
+   "postId": "ab9db560-8355-4cf4-a172-9c807c59da06",
+   "revision": "bc578101",
+   "publishAt": "2026-12-30T06:00:00+07:00"
+  },
+  {
+   "day": 47,
+   "title": "Why Flight Paths Look Curved on a Map",
+   "postId": "8cb48c10-6f26-4f38-b3fe-e4021f2aa826",
+   "revision": "65c80a25",
+   "publishAt": "2026-12-31T06:00:00+07:00"
+  },
+  {
+   "day": 48,
+   "title": "Why Planes Tell Each Other to Climb or Descend",
+   "postId": "2bed5981-a075-42a8-b7eb-a53b63cc7ee4",
+   "revision": "fe2d9478",
+   "publishAt": "2027-01-01T06:00:00+07:00"
+  },
+  {
+   "day": 49,
+   "title": "Why the Biggest Passenger Plane Stopped Being Built",
+   "postId": "b55835c1-0d04-4e1d-8d7e-4d7b86f8223d",
+   "revision": "d4de52da",
+   "publishAt": "2027-01-02T06:00:00+07:00"
+  }
+ ]
+}
