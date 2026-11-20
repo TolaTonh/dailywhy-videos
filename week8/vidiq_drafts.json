@@ -1,0 +1,62 @@
+{
+ "account": "UC6a9OfcNUX9XWP-7l8zdvCw",
+ "note": "Week 8 drafts created Nov 20 2026. Not published until the user says post. Long thumbnailImageId 24b28daf-be33-41e1-bae1-7390db74013b.",
+ "drafts": [
+  {
+   "day": 50,
+   "title": "Why Do Planes Dump Fuel?",
+   "postId": "677e2e6b-945f-4cfc-8da3-40eb076e2d8f",
+   "revision": "53eb970a",
+   "publishAt": "2027-01-03T06:00:00+07:00"
+  },
+  {
+   "day": 51,
+   "title": "Why Wings Change Shape Before Landing",
+   "postId": "78bccfbd-76f3-4d03-a7ce-0270233570a2",
+   "revision": "0bd8abe8",
+   "publishAt": "2027-01-04T06:00:00+07:00"
+  },
+  {
+   "day": 52,
+   "title": "Why Engines Open Up After Landing",
+   "postId": "23e37b27-2503-41a8-9779-f75bccaa4952",
+   "revision": "8535e7f3",
+   "publishAt": "2027-01-05T06:00:00+07:00"
+  },
+  {
+   "day": 53,
+   "title": "Why Do Planes Have Two Pilots?",
+   "postId": "c40684b5-86d5-468a-a54d-c3fa48aef885",
+   "revision": "d8cdeb01",
+   "publishAt": "2027-01-06T06:00:00+07:00"
+  },
+  {
+   "day": 54,
+   "title": "Why Does the 747 Have a Hump?",
+   "postId": "5d8cdd93-f676-4db3-af62-78bfb5df0ee0",
+   "revision": "62958425",
+   "publishAt": "2027-01-07T06:00:00+07:00"
+  },
+  {
+   "day": 55,
+   "title": "Why Plane Toilets Have Smoke Detectors",
+   "postId": "fc7a57c4-8da8-4ddc-a0e3-eacc8d72d94a",
+   "revision": "e804b524",
+   "publishAt": "2027-01-08T06:00:00+07:00"
+  },
+  {
+   "day": 56,
+   "title": "Why Pilots Fear Wind Shear",
+   "postId": "7de48047-de1b-44a7-af5d-bc3d8055108e",
+   "revision": "9b60353b",
+   "publishAt": "2027-01-09T06:00:00+07:00"
+  },
+  {
+   "day": "long",
+   "title": "How a Jet Engine Works, Step by Step",
+   "postId": "01247305-a82c-43df-9657-7d7055d208b2",
+   "revision": "d6425d6a",
+   "publishAt": "2027-01-09T07:00:00+07:00"
+  }
+ ]
+}
